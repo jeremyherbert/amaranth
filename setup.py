@@ -11,6 +11,7 @@ def doc_version():
 
 
 setup(
+    name="amaranth",
     project_urls={
         "Homepage": "https://amaranth-lang.org/",
         "Documentation": "https://amaranth-lang.org/docs/amaranth/{}".format(doc_version()),
